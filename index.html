@@ -2,26 +2,37 @@
 <html>
 
 <head>
-  <title>Tsunami Coffee</title>
+  <meta charset="utf-8" /> 
+  <title>Lebenslauf Sophie Schulz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
   <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/chorebot.css">
 </head>
 
 <body>
   <div class="main">
-    <nav class="container">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="ueber-mich.html">Über mich</a></li>
-        <li><a href="ausbildung.html">Ausbildung</a></li>
-        <li><a href="erfahrung.html">Erfahrung</a></li>
-        <li><a href="faehigkeiten.html">Fähigkeiten</a></li>
-      </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="ueber-mich.html">Über mich</a>
+                <a class="nav-item nav-link" href="ausbildung.html">Ausbildung</a>
+                <a class="nav-item nav-link" href="erfahrung.html">Erfahrung</a>
+                <a class="nav-item nav-link" href="faehigkeiten.html">Fähigkeiten</a>
+                </div>
+              </div>
+            </div>
     </nav>
   </div>
 
+  <img class="bild" src="http://content1.mediabiz.de/jobs/2020_02_07_16_00_33_630.png" alt="Tolles Bild von mir">
+
   <div class="container supporting">
-    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/beans.png" />
     <div class="description">
       <h2>Great coffee does not happen by accident.</h2>
       <p>We work side by side with farmers around the world to strengthen farming practices to cultivate the best coffee beans in the world. Then, we train our baristas in the sacred art of the brew process, yielding the most flavorful coffee you’ve ever tasted.
@@ -32,8 +43,46 @@
 
   <div class="rating">
     <div class="container">
-      <h1>9.4/10: A rush of flavors. Absolutely divine.</h1>
-      <p>~ Coffee Critic</p>
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg">
+          <div class="title-row">
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+            <p class="instructions-title">Instructions</p>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+          </div>
+          <table class="instructions-row">
+            <tr>
+              <td class="instructions-number">1
+              </td>
+              <td class="instructions-text">Hiding behind one of these doors is the ChoreBot.
+              </td>
+            </tr>
+            <tr>
+              <td class="instructions-number">2
+              </td>
+              <td class="instructions-text">Your mission is to open all of the doors without running into the ChoreBot.
+              </td>
+            </tr>
+            <tr>
+              <td class="instructions-number">3
+              </td>
+              <td class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win!
+              </td>
+            </tr>
+            <tr>
+              <td class="instructions-number">4
+              </td>
+              <td class="instructions-text">See if you can score a winning streak!
+              </td>
+            </tr>
+          </table>
+          <div class="door-row">
+            <img id="door1" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+            <img id="door2" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+            <img id="door3"  class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"> 
+          </div>
+          <div id="start" class="start-row">Good luck!
+          </div>
+          <script type="text/javascript" src="script.js"></script>
     </div>
   </div>
 
