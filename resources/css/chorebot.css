@@ -8,10 +8,10 @@
   .instructions-title {
     display: inline;
     font-size: 18px;
-    color: #00ffff;
+    color: #000000;;
     font-family: 'Work Sans';
   }
-  
+
   .instructions-row {
     margin: 0 auto;
     width: 400px;
@@ -43,13 +43,18 @@
   .start-row {
     margin: auto;
     width: 120px;
-    height: 43px;
+    height: 78px;
     font-family: 'Work Sans';
-    background-color: #eb6536;
-    padding-top: 18px;
+    background-color: #01DFA5;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    margin-top: 32px;
     font-size: 18px;
     text-align: center;
-    color: #010165;
-    margin-bottom: 21px;
+    color: #ffffff;
+    margin-bottom: 18px;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
     cursor: pointer;
   }
